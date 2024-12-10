@@ -1,4 +1,4 @@
 User-agent: * 
 Allow : /
 
-Sitemap: https://sinemaru.stmikdumai.ac.id/product/map.xml
+Sitemap: https://adipta.demakkab.go.id/kp/sitemap.xml
